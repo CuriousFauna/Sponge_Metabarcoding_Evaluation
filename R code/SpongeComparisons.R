@@ -21,13 +21,13 @@ library(gtools) # Ordering character/number columns
 #><><><><><><><><><><><><><><><>
 
 # Sponge OTU File based on Taxonomy and 28S DNA barcoding
-Sponge<-fread("SpongeOTUTable.csv")
+Sponge<-fread("BM_Table.csv")
 Sponge<-Sponge[order(Sponge$Sample),]
 # Total Sponge Richness
 Sponge$AllSponges<-specnumber(Sponge[,2:ncol(Sponge)])
 
 # Sponge Taxonomy File
-SpongeClass<-fread("OTUClassification.csv")
+SpongeClass<-fread("BM_Classification.csv")
 SpongeClass2<-subset(SpongeClass, Class != "Calcarea")
 
 #Creating Vector of OTUs with Calcarea absent
@@ -48,7 +48,7 @@ SpongeOTU<-NoCalc2[,c("Sample","NoCalcarea")]
 SpongeOTU$AllSponges<-Sponge$AllSponges
 
 # Sponge OTU Metabarcoding File
-metaBar <- fread("Metabarcode_SpongeOTU.csv")
+metaBar <- fread("Metabarcode_Table.csv")
 metaBar<-metaBar[order(metaBar$Sample),]
 metaBar$MetaRichness<-specnumber(metaBar[,2:ncol(metaBar)])
 
@@ -125,7 +125,7 @@ metaBarClass$MetaRichness<-NULL
 metaBarClass2<-melt(metaBarClass, id=c("Sample"), variable = "OTU", value = "Present")
 metaBarClass3<-dcast(metaBarClass2, OTU ~ Sample )
 
-metaClass<-fread("MetabarcodeSpongeClassification.csv")
+metaClass<-fread("Metabarcode_Classification.csv")
 metaClass2<-metaClass[,c("OTU","Class")]
 metaBarClass4<-merge(metaClass2, metaBarClass3, by = "OTU")
 metaBarClass5<-melt(metaBarClass4, id = c("OTU","Class"), variable = "Sample")
