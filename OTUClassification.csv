@@ -1,0 +1,70 @@
+OTU,Mineral,Phylum,Class,Subclass,Order,Suborder,Infraorder,Superfamily,Family,Subfamily,Genus,Subgenus,Species
+OTU42,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tetractinellida,Astrophorina,,,Ancorinidae,,,,Ancorinidae sp. 1
+OTU43,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tetractinellida,Astrophorina,,,Ancorinidae,,,,Ancorinidae sp. 2
+OTU44,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tetractinellida,Astrophorina,,,Ancorinidae,,,,Ancorinidae sp. 3
+OTU46,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tetractinellida,Astrophorina,,,Ancorinidae,,,,Ancorinidae sp. 5
+OTU48,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tetractinellida,Astrophorina,,,Ancorinidae,,,,Ancorinidae sp. 7
+OTU49,Non Calcifying,Porifera,Demospongiae,Keratosa,Dendroceratida,,,,Darwinellidae,,Aplysilla,,Aplysilla rosea
+OTU25,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,Chalinidae,,,,Chalinidae sp. 1
+OTU56,Non Calcifying,Porifera,Demospongiae,Keratosa,Dendroceratida,,,,Darwinellidae,,Chelonaplysilla,,Chelonaplysilla sp. 1
+OTU58,Non Calcifying,Porifera,Demospongiae,Verongimorpha,Chondrillida,,,,,,,,Chondrillida sp. 1
+OTU97,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,Chalinidae,,Cladocroce,,Cladocroce burapha
+OTU23,Calcifying,Porifera,Calcarea,Calcinea,Clathrinida,,,,,,,,Clathrinida sp. 1
+OTU7,Calcifying,Porifera,Calcarea,Calcinea,Clathrinida,,,,Clathrinidae,,,,Clathrinidae sp. 1
+OTU8,Calcifying,Porifera,Calcarea,Calcinea,Clathrinida,,,,Clathrinidae,,,,Clathrinidae sp. 2
+OTU9,Calcifying,Porifera,Calcarea,Calcinea,Clathrinida,,,,Clathrinidae,,,,Clathrinidae sp. 3
+OTU10,Calcifying,Porifera,Calcarea,Calcinea,Clathrinida,,,,Clathrinidae,,,,Clathrinidae sp. 4
+OTU11,Calcifying,Porifera,Calcarea,Calcinea,Clathrinida,,,,Clathrinidae,,,,Clathrinidae sp. 5
+OTU50,Non Calcifying,Porifera,Demospongiae,Keratosa,Dictyoceratida,,,,,,,,Dictyoceratida sp. 1
+OTU90,Non Calcifying,Porifera,Demospongiae,Keratosa,Dictyoceratida,,,,Dysideidae,,Dysidea,,Dysidea sp. 3
+OTU57,Non Calcifying,Porifera,Demospongiae,Keratosa,Dictyoceratida,,,,Dysideidae,,Dysidea,,Dysidea sp. 5
+OTU78,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Halichondriidae,,Halichondria,,Halichondria sp. 1
+OTU27,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,Chalinidae,,Haliclona,,Haliclona sp. 1
+OTU28,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,Chalinidae,,Haliclona,,Haliclona sp. 2
+OTU26,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,Chalinidae,,Haliclona,,Haliclona sp. 24
+OTU32,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,Chalinidae,,Haliclona,,Haliclona sp. 4
+OTU29,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,,,,,Haplosclerida sp. 1
+OTU41,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,,,,,Haplosclerida sp. 10
+OTU111,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,,,,,Haplosclerida sp. 13
+OTU30,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,,,,,Haplosclerida sp. 2
+OTU37,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,,,,,Haplosclerida sp. 7
+OTU38,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Haplosclerida,,,,,,,,Haplosclerida sp. 8
+OTU103,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,,,,,,,,,Heteroscleromorpha sp. 1
+OTU73,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Halichondriidae,,Hymeniacidon,,Hymeniacidon chloris
+OTU74,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Halichondriidae,,Hymeniacidon,,Hymeniacidon sp. 2
+OTU77,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Halichondriidae,,Hymeniacidon,,Hymeniacidon sp. 5
+OTU94,Non Calcifying,Porifera,Demospongiae,Keratosa,Dictyoceratida,,,,Irciniidae,,Ircinia,,Ircinia sp. 2
+OTU15,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 1
+OTU14,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 10
+OTU1,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 11
+OTU2,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 13
+OTU98,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 18
+OTU17,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 3
+OTU19,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 5
+OTU21,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 7
+OTU91,Calcifying,Porifera,Calcarea,Calcaronea,Leucosolenida,,,,,,,,Leucosolenida sp. 9
+OTU109,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,Coelosphaeridae,,Lissodendoryx,,Lissodendoryx sp. 2
+OTU60,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,Mycalidae,,Mycale ,,Mycale sp. 10
+OTU59,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,Mycalidae,,Mycale ,,Mycale sp. 9
+OTU84,Non Calcifying,Porifera,Homoscleromorpha,,Homosclerophorida,,,,Oscarellidae,,Oscarella,,Oscarella sp. 3
+OTU85,Non Calcifying,Porifera,Homoscleromorpha,,Homosclerophorida,,,,Oscarellidae,,Oscarella,,Oscarella sp. 4
+OTU86,Non Calcifying,Porifera,Homoscleromorpha,,Homosclerophorida,,,,Oscarellidae,,Oscarella,,Oscarella sp. 5
+OTU104,Non Calcifying,Porifera,Homoscleromorpha,,Homosclerophorida,,,,Oscarellidae,,Oscarella,,Oscarella sp. 6
+OTU87,Non Calcifying,Porifera,Homoscleromorpha,,Homosclerophorida,,,,Plakinidae,,Plakina,,Plakina sp. 1
+OTU88,Non Calcifying,Porifera,Homoscleromorpha,,Homosclerophorida,,,,Plakinidae,,Plakortis,,Plakortis sp. 1
+OTU66,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,,,,,Poecilosclerida sp. 1
+OTU67,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,,,,,Poecilosclerida sp. 2
+OTU101,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,,,,,Poecilosclerida sp. 4
+OTU62,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,,,,,Poecilosclerida sp. 7
+OTU68,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Suberitidae,,Protosuberites,,Protosuberites sp. 1
+OTU69,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Suberitidae,,Protosuberites,,Protosuberites sp. 2
+OTU70,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Suberitidae,,Protosuberites,,Protosuberites sp. 3
+OTU65,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Poecilosclerida,,,,Tedanidae,,Tedania,,Tedania cf. klausi
+OTU80,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Suberitida,,,,Suberitidae,,Terpios,,Terpios sp. 1
+OTU51,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tethyida,,,,Tethyidae,,Tethya,,Tethya sp. 2
+OTU52,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tethyida,,,,Tethyidae,,Tethya,,Tethya sp. 3
+OTU53,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tethyida,,,,Tethyidae,,Tethya,,Tethya sp. 4
+OTU54,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tethyida,,,,Tethyidae,,Tethya,,Tethya sp. 5
+OTU55,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tethyida,,,,Tethyidae,,Tethya,,Tethya sp. 6
+OTU93,Non Calcifying,Porifera,Demospongiae,Heteroscleromorpha,Tethyida,,,,Tethyidae,,,,Tethyidae sp. 1
+OTU89,Non Calcifying,Porifera,Demospongiae,Verongimorpha,Chondrillida,,,,,,,,Verongimorpha sp. 1
