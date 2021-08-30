@@ -9,7 +9,8 @@ Sequences were processed through the JAMP pipeline - https://github.com/VascoElb
 The JAMP pipeline output is the Raw_MOTU_Table.csv file located in the Data Folder.
 
 ## Data and R Code
-All data and R code used to obtain the results are presented in the Data and R Code folders. R packages needed to process the data are provided in the respective heading of each R file. See methods for details on sequence annotations and conducted statistical analyses. Figures and Tables presented in the manuscript are highighted within the R file SpongeComparison.R.
+All data and R code used to obtain the results are presented in the Data and R Code folders. R packages needed to process the data are provided in the respective heading of each R file. See methods for details on sequence annotations and conducted statistical analyses. 
 
+JAMP output was further clean in the MOTU_Processing.R file and resulting cleaned files were used in the SpongeComparison.R to produce the figures and tables presented in the manuscript.
 
 
