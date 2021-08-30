@@ -75,9 +75,9 @@ SpongeAnnotation<-subset(annotate5, FinalPhylum == "PORIFERA")
 SpongeAnnotations2<-SpongeAnnotation[,!names(SpongeAnnotation) %in% c("FinalKingdom", "FinalPhylum")]
 colnames(SpongeAnnotations2)[1]<-"OTU"
 SpongeAnnotations3<-SpongeAnnotations2[,1:6]
-# These sponge classification were exported to examine against the phylogenetic tree - Figure 1 
-# See Methods
-# Higher level classification were modified accordingly resulting in the "MetabarcodeSpongeClassification.csv"
+# The sponge classifications from SpongeAnnotations3 dataframe were exported to examine against 
+# the phylogenetic tree presented in Figure 1 - see methods
+# Higher level classification were modified accordingly resulting in the "Metabarcode_Classification.csv"
 
 # Subsampling to correct for sequence size to obtain MOTU sequence Table
 subsample<-as.data.frame(t(annotate5[,11:ncol(annotate5)]))
@@ -100,6 +100,6 @@ SpongeMOTU_2$Sample<-rownames(SpongeMOTU_2)
 SpongeMOTU_3 <- SpongeMOTU_2 %>% dplyr::select(Sample, everything())
 
 # Now having cleaned working sponge data frame of samples and sequences
-write.csv(SpongeMOTU_3, "Metabarcode_SpongeOTU.csv", row.names = F)
+write.csv(SpongeMOTU_3, "Metabarcode_Table.csv", row.names = F)
 
 
