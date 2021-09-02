@@ -20,7 +20,7 @@ library(gtools) # Ordering character/number columns
 #   Figure 2 and Table 2
 #><><><><><><><><><><><><><><><>
 
-# Sponge OTU File based on Taxonomy and 28S DNA barcoding
+# Sponge BM File based on Taxonomy and 28S DNA barcoding
 Sponge<-fread("BM_Table.csv")
 Sponge<-Sponge[order(Sponge$Sample),]
 # Total Sponge Richness
@@ -30,10 +30,10 @@ Sponge$AllSponges<-specnumber(Sponge[,2:ncol(Sponge)])
 SpongeClass<-fread("BM_Classification.csv")
 SpongeClass2<-subset(SpongeClass, Class != "Calcarea")
 
-#Creating Vector of OTUs with Calcarea absent
+#Creating Vector of BM with Calcarea absent
 NoCalc<-SpongeClass2$OTU
 
-# Selecting only those OTU columns with the OTUs from the vector
+# Selecting only those BM columns with the OTUs from the vector
 NoCalc2<-subset(Sponge, select = NoCalc)
 NoCalc2$Sample<-Sponge$Sample
 NoCalc2 <- NoCalc2 %>%
@@ -47,7 +47,7 @@ NoCalc2<-NoCalc2[order(NoCalc2$Sample),]
 SpongeOTU<-NoCalc2[,c("Sample","NoCalcarea")]
 SpongeOTU$AllSponges<-Sponge$AllSponges
 
-# Sponge OTU Metabarcoding File
+# Sponge MOTU Metabarcoding File
 metaBar <- fread("Metabarcode_Table.csv")
 metaBar<-metaBar[order(metaBar$Sample),]
 metaBar$MetaRichness<-specnumber(metaBar[,2:ncol(metaBar)])
@@ -70,7 +70,7 @@ wilcox.test(SpongeComparison$NoCalcarea,SpongeComparison$MetaRichness, paired = 
 #   Figure 2A
 #><><><><><><><><><><><>
 
-## Melting SpongeOTU
+## Melting Sponge BM
 SpongeOTUMelt<-melt(SpongeOTU, id = c( "Sample"), variable = "RichnessType", value = "Richness")
 
 # Melting Metabarcode
@@ -438,14 +438,14 @@ Heat28S<-read.csv("28S_heat.csv")
 Heat28S_OTU<-Sponge
 Heat28S_OTU$AllSponges<-NULL
 
-# Melting MOTU table to then merge against matching MOTUS
+# Melting BM table to then merge against matching MOTUS
 Heat28S_OTU2<-melt(Heat28S_OTU, id = c("Sample"),variable = "OTU")
 Heat28S_OTU2$PA<-ifelse(Heat28S_OTU2$value > 0,1,0)
 Heat28S_OTU2$Sample<-as.factor(Heat28S_OTU2$Sample)
 Heat28S_OTU3<-dcast(Heat28S_OTU2, OTU ~ Sample, value.var = "PA")
 Heat28S_OTU4<-merge(Heat28S, Heat28S_OTU3, by = "OTU")
 
-# arranging MOTUs to match with 28S OTU file that comes next
+# arranging MOTUs to match with 28S BM file that comes next
 Heat28S_OTU5<-arrange(Heat28S_OTU4, OrderMatch)
 rownames(Heat28S_OTU5)<-Heat28S_OTU5$OrderMatch
 
